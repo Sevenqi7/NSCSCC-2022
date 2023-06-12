@@ -13,13 +13,15 @@
 
 采用的是经典的MIPS五级流水线结构，分支的判断提前至了ID级，由于龙芯杯个人赛要求实现延迟槽，在不出现数据相关时可以单周期内完成跳转。若数据相关时则根据具体情况，可能需要在ID级阻塞1至2个周期。阻塞逻辑和前递效率并不是很高，应该有可以优化的地方。
 
+![](./images/1)
+
 （二）各测试通过结果截图
 
-![image-20230612131550868](/home/seven7/.config/Typora/typora-user-images/image-20230612131550868.png)
+![image-20230612131616396](./images/2)
 
-![image-20230612131616396](/home/seven7/.config/Typora/typora-user-images/image-20230612131616396.png)
+![image-20230612131623100](./images/3)
 
-![image-20230612131623100](/home/seven7/.config/Typora/typora-user-images/image-20230612131623100.png)
+![](./images/4)
 
 （三）参考资料
 
