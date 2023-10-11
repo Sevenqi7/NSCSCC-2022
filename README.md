@@ -1,13 +1,15 @@
 2022龙芯杯个人赛三等奖作品
 ---------------
 
+A classic 5 stages MIPS32-Based CPU designed for NSCSCC2022 (The Loongson Cup). The repo contains all the vivado 2019.2 project, and the HDL source code is in thinpad_top.srcs/sources_1/new.
+
 本仓库于2023年6月建立，欢迎各位参加龙芯杯～。工程包含Vivado 2019.2工程文件以及HDL源码，但不包含龙芯杯个人赛各个测试的二进制文件。  
 
 （一）设计思路
 
 ​	总体设计思路参照教材上的经典五级流水线设计，包括控制信号的命名，旁路的设计，需要阻塞的情形均有受其影响。最高频率为65MHz。总体数据通路如下：
 
-![img](./images/1)
+![Datapath](./images/1)
 
 注：本图中部分多选器的控制信号、SRAM的控制信号、串口以及阻塞的控制模块未画出。
 
